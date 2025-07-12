@@ -1,0 +1,8 @@
+flask
+sounddevice
+wavio
+faster-whisper
+diffusers
+torch
+transformers
+accelerate

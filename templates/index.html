@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generated Images</title>
+</head>
+<body>
+  <h1>Generated Images</h1>
+  {% for img in images %}
+    <div>
+      <img src="{{ url_for('generated_image', filename=img) }}" width="512">
+    </div>
+  {% endfor %}
+</body>
+</html>
